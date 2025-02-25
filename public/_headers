@@ -1,0 +1,12 @@
+# Add cache headers
+/*
+  cache-control: public,max-age=300,immutable
+/static/*
+  ! cache-control
+  cache-control: public,max-age=31536000,immutable
+  access-control-allow-origin: *
+
+/*.css
+  content-type: text/css;charset=utf-8
+/*.js
+  content-type: application/javascript;charset=utf-8

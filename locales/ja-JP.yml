@@ -1,0 +1,21 @@
+'404':
+  title: ああ！ページが見つかりません
+  desc: アクセスしたページが存在しないか、別の場所に移動されているように見えます
+  back: 前のページに戻る
+  home: トップページに戻る
+image:
+  tool:
+    download: 画像のダウンロード
+    reset: リセット
+    zoomIn: 拡大
+    zoomOut: 縮小
+    rotateLeft: 左に曲がる
+    rotateRight: 右に回転
+navbar:
+  language: Switch language
+  title: AIアルバム
+home:
+  photoCount: 写真1枚
+route:
+  name:
+    watase_otoha: わたせ おとは

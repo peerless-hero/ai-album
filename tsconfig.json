@@ -1,0 +1,14 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "~/*": ["src/*"],
+      "@/*": ["src/*"],
+      "@assets/*": ["src/assets/*"],
+      "@locales/*": ["locales/*"]
+    }
+  },
+  "include": ["src/**/*", "src/**/*.vue", "rsbuild.config.ts", "uno.config.ts"],
+  "compileOnSave": false
+}

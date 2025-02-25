@@ -1,0 +1,21 @@
+'404':
+  title: 啊哦！页面找不到了
+  desc: 看起来你访问的页面不存在，或者已经被移动到别处了
+  back: 返回上一页
+  home: 返回首页
+image:
+  tool:
+    download: 下载图片
+    rotateRight: 向右旋转
+    rotateLeft: 向左旋转
+    reset: 重置
+    zoomIn: 放大
+    zoomOut: 缩小
+navbar:
+  language: 切换语言
+  title: AI相册
+home:
+  photoCount: '{0} 张照片'
+route:
+  name:
+    watase_otoha: 渡赖乙叶

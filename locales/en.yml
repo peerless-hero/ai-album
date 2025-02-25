@@ -1,0 +1,23 @@
+'404':
+  title: Ah, oh! The page cannot be found
+  desc: >-
+    It seems that the page you are visiting does not exist or has been moved
+    elsewhere
+  back: Return to the previous page
+  home: homepage
+image:
+  tool:
+    download: Download images
+    reset: Reset
+    zoomIn: Zoom In
+    zoomOut: Zoom Out
+    rotateLeft: Rotate to the left
+    rotateRight: Rotate Right
+navbar:
+  language: Switch language
+  title: AI photo album
+route:
+  name:
+    watase_otoha: Watase Otoha
+home:
+  photoCount: '{0} photos'

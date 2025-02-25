@@ -1,0 +1,46 @@
+{
+  "name": "ai-album",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "bun@1.2.2",
+  "description": "AI Album",
+  "author": {
+    "name": "peerless-hero",
+    "email": "peerless.hero@gmail.com",
+    "url": "https://www.peerless.vip"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peerless-hero/ai-album.git"
+  },
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "preview": "rsbuild preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.3.0",
+    "@rsbuild/core": "^1.2.11",
+    "@rsbuild/plugin-vue": "^1.0.6",
+    "@rsbuild/plugin-yaml": "^1.0.2",
+    "@unocss/webpack": "^66.0.0",
+    "@vue/tsconfig": "^0.7.0",
+    "eslint": "^9.20.1",
+    "typescript": "^5.7.3",
+    "unocss": "^66.0.0",
+    "unplugin-auto-import": "^19.1.0",
+    "vue-i18n": "^11.1.1",
+    "vue-router": "^4.5.0"
+  },
+  "volta": {
+    "bun": "1.2.2",
+    "node": "22.12.0"
+  }
+}
