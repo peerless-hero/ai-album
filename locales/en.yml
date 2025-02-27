@@ -16,8 +16,9 @@ image:
 navbar:
   language: Switch language
   title: AI photo album
+home:
+  photoCount: '{0} photos'
 route:
   name:
     watase_otoha: Watase Otoha
-home:
-  photoCount: '{0} photos'
+    yuuri_kamiyama: Yuuri Kamiyama
