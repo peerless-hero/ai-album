@@ -189,7 +189,7 @@ if (typeof window !== 'undefined') {
     </header>
 
     <!-- Main Content -->
-    <main class="mx-auto overflow-y-auto min-h-[calc(100vh-72px)] px-20px bg-blue-50 custom-scrollbar">
+    <main class="mx-auto overflow-y-auto min-h-[calc(100vh-72px)] px-20px bg-blue-50 dark:bg-gray-900 px-6 custom-scrollbar">
       <router-view />
     </main>
   </div>

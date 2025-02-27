@@ -2,7 +2,7 @@
  * @Author: peerless_hero peerless_hero@outlook.com
  * @Date: 2025-02-25 09:07:35
  * @LastEditors: peerless_hero peerless_hero@outlook.com
- * @LastEditTime: 2025-02-25 10:04:20
+ * @LastEditTime: 2025-02-28 01:53:14
  * @FilePath: \ai-album\src\views\Home.vue
  * @Description:
  *
@@ -14,12 +14,12 @@ defineProps<{
 </script>
 
 <template>
-  <div class="  mx-auto py-8">
+  <div class="mx-auto py-8">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
       <div
         v-for="(photos, albumName) in albumStructure"
         :key="albumName"
-        class="group rounded-lg overflow-hidden transform transition-all duration-300 hover:scale-105 cursor-pointer bg-white shadow-lg"
+        class="group rounded-lg overflow-hidden transform transition-all duration-300 hover:scale-105 cursor-pointer bg-white dark:bg-gray-800 shadow-lg"
       >
         <RouterLink
           :key="albumName"
@@ -36,10 +36,10 @@ defineProps<{
             </div>
           </div>
           <div class="p-4">
-            <h2 class="text-lg font-semibold text-blue-800 mb-2">
+            <h2 class="text-lg font-semibold text-blue-600 dark:text-white mb-2">
               {{ $t(`route.name.${albumName}`) }}
             </h2>
-            <p class="text-blue-400">
+            <p class="text-blue-500 dark:text-white">
               {{ $t('home.photoCount', [photos.length]) }}
             </p>
           </div>

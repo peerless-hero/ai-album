@@ -2,7 +2,7 @@
  * @Author: peerless_hero peerless_hero@outlook.com
  * @Date: 2025-02-21 02:54:37
  * @LastEditors: peerless_hero peerless_hero@outlook.com
- * @LastEditTime: 2025-02-25 10:04:44
+ * @LastEditTime: 2025-02-28 01:59:08
  * @FilePath: \ai-album\src\views\404.vue
  * @Description:
  *
@@ -35,7 +35,7 @@ function toggleDarkMode() {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="w-full h-full animate-float transition-colors duration-300"
-              :class="isDark ? 'text-indigo-400' : 'text-indigo-500'"
+              :class="isDark ? 'text-blue-400' : 'text-blue-500'"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -69,7 +69,7 @@ function toggleDarkMode() {
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <RouterLink to="/">
           <button
-            class="inline-flex items-center justify-center px-6 py-3 rounded-lg text-white transition-colors duration-300 bg-indigo-500 hover:bg-indigo-600"
+            class="inline-flex items-center justify-center px-6 py-3 rounded-lg text-white transition-colors duration-300 bg-blue-500 hover:bg-blue-600"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +114,7 @@ function toggleDarkMode() {
       <!-- Dark Mode Toggle -->
       <button
         class="mt-8 p-2 rounded-full transition-colors duration-300"
-        :class="isDark ? 'text-gray-300 hover:bg-gray-800' : 'text-indigo-600 hover:bg-indigo-50'"
+        :class="isDark ? 'text-gray-300 hover:bg-gray-800' : 'text-blue-600 hover:bg-blue-50'"
         @click="toggleDarkMode"
       >
         <svg

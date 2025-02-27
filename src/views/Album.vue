@@ -2,7 +2,7 @@
  * @Author: peerless_hero peerless_hero@outlook.com
  * @Date: 2025-02-22 09:27:24
  * @LastEditors: peerless_hero peerless_hero@outlook.com
- * @LastEditTime: 2025-02-25 09:28:30
+ * @LastEditTime: 2025-02-28 01:48:49
  * @FilePath: \ai-album\src\views\Album.vue
  * @Description:
  *
@@ -18,7 +18,7 @@ const currentIndex = ref<number | null>(null)
 </script>
 
 <template>
-  <div class="max-w-[2000px] mx-auto py-8">
+  <div class="max-w-[2000px] mx-auto py-8 dark:bg-gray-800">
     <!-- Masonry Grid -->
     <div class="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 2xl:columns-5 gap-4">
       <div
@@ -27,7 +27,7 @@ const currentIndex = ref<number | null>(null)
         class="break-inside-avoid mb-4"
         @click="currentIndex = index"
       >
-        <div class="relative overflow-hidden rounded-lg shadow-lg bg-white cursor-pointer transform transition-transform duration-300 hover:scale-105">
+        <div class="relative overflow-hidden rounded-lg shadow-lg bg-white dark:bg-gray-800 cursor-pointer transform transition-transform duration-300 hover:scale-105">
           <img
             :src="image"
             :alt="`${String($route.name)}-${index + 1}`"
