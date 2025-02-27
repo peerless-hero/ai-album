@@ -2,7 +2,7 @@
  * @Author: peerless_hero peerless_hero@outlook.com
  * @Date: 2025-02-22 09:27:24
  * @LastEditors: peerless_hero peerless_hero@outlook.com
- * @LastEditTime: 2025-02-28 01:48:49
+ * @LastEditTime: 2025-02-28 03:12:45
  * @FilePath: \ai-album\src\views\Album.vue
  * @Description:
  *
@@ -20,7 +20,7 @@ const currentIndex = ref<number | null>(null)
 <template>
   <div class="max-w-[2000px] mx-auto py-8 dark:bg-gray-800">
     <!-- Masonry Grid -->
-    <div class="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 2xl:columns-5 gap-4">
+    <div class="grid shadow-black  sm:grid-cols-2 grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4">
       <div
         v-for="(image, index) in images"
         :key="index"
