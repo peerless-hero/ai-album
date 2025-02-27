@@ -53,6 +53,10 @@ function prevImage(): void {
     emit('update:modelValue', index - 1)
     resetImage()
   }
+  else {
+    emit('update:modelValue', props.images.length - 1)
+    resetImage()
+  }
 }
 
 // 下一张图片
@@ -60,6 +64,10 @@ function nextImage(): void {
   const index = currentIndex.value
   if (props.images && index < props.images.length - 1) {
     emit('update:modelValue', index + 1)
+    resetImage()
+  }
+  else {
+    emit('update:modelValue', 0)
     resetImage()
   }
 }
