@@ -22,6 +22,7 @@ function isNumber(params: any): params is number {
   return typeof params === 'number'
 }
 const route = useRoute()
+const { t } = useI18n()
 
 const current = computed(() => {
   if (!isNumber(props.modelValue)) {
@@ -29,9 +30,10 @@ const current = computed(() => {
       id: props.modelValue,
     }
   }
+  const name = t(`route.name.${route.name as string}`)
   return {
     id: props.modelValue,
-    description: `${route.name as string}-${props.modelValue}`,
+    description: `${name}-${props.modelValue}`,
     url: props.images[props.modelValue],
   }
 })
